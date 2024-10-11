@@ -1,0 +1,107 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f9f9f9; /* Light background for contrast */
+    color: #333;
+    padding: 20px;
+}
+
+/* Header */
+header {
+    background-color: #ff7f50; /* Coral color to represent pizza */
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners */
+}
+
+header h1 {
+    font-size: 2.5em;
+}
+
+/* Main Content */
+main {
+    max-width: 600px; /* Limit width for better readability */
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Section Headings */
+h2 {
+    color: #ff7f50; /* Matching color for consistency */
+    border-bottom: 2px solid #ffe4b5; /* Light bottom border */
+    padding-bottom: 5px;
+    margin-bottom: 15px;
+}
+
+/* Form Styling */
+form {
+    display: grid;
+    gap: 15px; /* Space between form elements */
+}
+
+/* Input Styles */
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="number"],
+input[type="radio"],
+input[type="checkbox"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    width: auto; /* Keep checkboxes and radios their natural size */
+    margin-right: 10px;
+}
+
+/* Fieldset Styling */
+fieldset {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+    background: #fafafa; /* Slightly off-white background */
+}
+
+legend {
+    padding: 0 10px; /* Legend padding */
+    font-weight: bold;
+}
+
+/* Button Styling */
+button[type="submit"] {
+    background-color: #ff7f50; /* Coral color */
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+}
+
+button[type="submit"]:hover {
+    background-color: #ff6347; /* Darker coral for hover effect */
+}
+
+/* Footer Styling */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background: #333; /* Dark background for footer */
+    color: #fff;
+    border-radius: 5px; /* Rounded corners */
+}

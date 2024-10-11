@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!-- this declares character type-->
+    <meta charset="utf-8">
+    <!-- this detects the viewpoint the application is being viewed on-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--description of the content of the document-->
+    <meta name="description" content="Online Pizza Shop">
+    <!--Title-->
+    <title> Assignmnet - 2 </title>
+    <!--Tells the search engine not to index or follow this page-->
+    <meta name="robots" content="nofollow, noindex">
+    <link rel="stylesheet" href="style.css">
+    </head>
+
+    <!--The main content of my HTML Document goes here-->
+    <body>
+        <header>
+            <h1>PizzaNation</h1>
+        </header>
+        <main>
+            <section id = "Order-Form">
+                <h2> Order Now </h2>
+                <form id="pizza-order" method = "post">
+                    <!--Number of Pizza-->
+                    <label for = "quantity">Number of Pizzas?</label>
+                    <input type = "number" id="quantity"  name="quantity" min="1" required>
+
+                    <!--Crust Options-->
+                    <fieldset id="pizza-size">
+                        <legend> Pizza Crust </legend>
+                        <label>
+                            <input type="radio" name="crust" value="Thin-Crust" required>
+                            Thin-Crust
+                        </label>
+                        <label>
+                            <input type="radio" name="crust" value="Hand-Tossed Crust" required>
+                            Hand-Tossed Crust
+                        </label>
+                        <label>
+                            <input type="radio" name="crust" value="Gluten-Free Crust" required>
+                            Gluten-Free Crust
+                        </label>
+                    </fieldset>
+
+                    <!--Pizza size options-->
+                    <fieldset>
+                        <legend> Pizza Size </legend>
+                        <label>
+                            <input type="radio" name="size" value="Small" required>
+                            Small
+                        </label>
+                        <label>
+                            <input type="radio" name="size" value="Medium" required>
+                            Medium
+                        </label>
+                        <label>
+                            <input type="radio" name="size" value="Large" required>
+                            Large
+                        </label>
+                    </fieldset>
+
+                    <!--Sauces options-->
+                    <fieldset id="sauce-option">
+                        <legend> Sauces </legend>
+                        <label>
+                            <input type="radio" name="sauce" value="Pizza Sauce" required>
+                            Pizza Sauce
+                        </label>
+                        <label>
+                            <input type="radio" name="sauce" value="Garlic Parmesan Sauce" required>
+                            Garlic Parmesan Sauce
+                        </label>
+                        <label>
+                            <input type="radio" name="sauce" value="BBQ Sauce" required>
+                            BBQ Sauce
+                        </label>
+                        <label>
+                            <input type="radio" name="sauce" value="Ranch Dressing" required>
+                            Ranch Dressing
+                        </label>
+                    </fieldset>
+
+                    <!--Pizza Toppings-->
+                    <fieldset>
+                        <legend> Choose Toppings </legend>
+                        <label>
+                            <input type="checkbox" name="toppings" value="Pepperoni">
+                            Pepperoni
+                        </label>
+                        <label>
+                            <input type="checkbox" name="toppings" value="Chicken">
+                            Chicken
+                        </label>
+                        <label>
+                            <input type="checkbox" name="toppings" value="Bacon">
+                            Bacon
+                        </label>
+                        <label>
+                            <input type="checkbox" name="toppings" value="Sausage">
+                            Sausage
+                        </label>
+                        <label>
+                            <input type="checkbox" name="toppings" value="Mushrooms">
+                            Mushrooms
+                        </label>
+                        <label>
+                            <input type="checkbox" name="toppings" value="Black Olives">
+                            Black Olives
+                        </label>
+                        <label>
+                            <input type="checkbox" name="toppings" value="Jalapeno">
+                            Jalapeno
+                        </label>
+                        <label>
+                            <input type="checkbox" name="toppings" value="Pineapple">
+                            Pineapple
+                        </label>
+                        <label>
+                            <input type="checkbox" name="toppings" value="spinach">
+                            Spinach
+                        </label>
+                        <label>
+                            <input type="checkbox" name="toppings" value="Green Peppers">
+                            Green Peppers
+                        </label>
+                        <label>
+                            <input type="checkbox" name="toppings" value="Hot Banana Peppers">
+                            Hot Banana Peppers
+                        </label>
+                        <label>
+                            <input type="checkbox" name="toppings" value="Extra Cheese">
+                            Extra Cheese
+                        </label>
+                    </fieldset>
+
+                    <!--Customer Information-->
+                    <label for="first-name"> First Name* </label>
+                    <input type="text" id="name" name="first-name" required>
+
+                    <label for="last-name"> Last Name* </label>
+                    <input type="text" id="name" name="last-name" required>
+
+                    <label for="email"> Email* </label>
+                    <input type="email" id="email" name="email" required>
+
+                    <label for="billing address"> Billing Address* </label>
+                    <input type="text" id="billing address" name="billing address" required>
+
+                    <label for="number"> Phone No:* </label>
+                    <input type="tel" id="phone number" name="phone number" required>
+                    
+                    <!--Submit Button-->
+                    <button type="submit"> Place Order </button>
+                </form>
+            </section> 
+
+            <section id="order-confirmation">
+                <h2>Order Confirmation</h2>
+                <p id="confirmation-message"></p>
+            </section>
+        </main>
+
+        <footer>
+            <p>&copy; 2024 PizzaNation. All Rights Reserved.</p>
+        </footer>
+            
+           
+    </body>
+</html>
