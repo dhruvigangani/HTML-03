@@ -1,0 +1,82 @@
+/* Importing Noto Sans JP font from Google Fonts with various font weights */
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap');
+
+/* Styling for the body element */
+body {
+    /* Setting a background image and controlling its appearance */
+    background-image: url("../Image/Image-1.jpg");
+    background-repeat: no-repeat; /* Prevents the image from repeating */
+    background-position: center; /* Centers the image */
+    background-size: cover; /* Scales the image to cover the entire viewport */
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    margin: 0; /* Removes default margin */
+    padding: 0; /* Removes default padding */
+}
+
+/* Styling for h3 elements within .maincontent */
+.maincontent h3 {
+    font-family: "Noto Sans JP", sans-serif; /* Using the imported font */
+    letter-spacing: 3px; /* Adds spacing between letters */
+    color: #585858; /* Dark gray color */
+}
+
+/* Flexbox setup for a container class */
+.content1 {
+    display: flex; /* Enables flexbox layout */
+    justify-content: space-between; /* Distributes space between items */
+}
+
+/* Box class for main content area */
+.box {
+    height: 100%; /* Takes full height of parent */
+    width: 100%; /* Takes full width of parent */
+}
+
+/* Styling for h2 and h4 elements within .box */
+.box h2, h4 {
+    color: #ded9d9; /* Light gray color */
+}
+
+/* Styling for images within the .box */
+.box img {
+    height: 6%; /* Sets the height of images */
+    width: 8%; /* Sets the width of images */
+    padding-right: 4%; /* Right padding for spacing */
+    padding-left: 4%; /* Left padding for spacing */
+}
+
+/* Styling for h1 elements within the .box */
+.box h1 {
+    color: #9e9c9c; /* Gray color */
+    letter-spacing: 1px; /* Slight spacing between letters */
+    font-family: "Noto Sans JP", sans-serif; /* Uses the imported font */
+}
+
+/* Styling for specific classes representing text */
+.the {
+    font-size: 20px; /* Sets font size */
+    font-family: "Noto Sans JP", sans-serif; /* Uses the imported font */
+}
+
+.wol {
+    font-size: 35px; /* Larger font size for emphasis */
+    font-family: "Noto Sans JP", sans-serif; /* Uses the imported font */
+}
+
+.in {
+    font-size: 12px; /* Smaller font size for less emphasis */
+    font-family: "Noto Sans JP", sans-serif; /* Uses the imported font */
+}
+
+/* Styling for paragraph elements within the .box */
+.box p {
+    font-size: 8px; /* Very small font size */
+    font-family: "Noto Sans JP", sans-serif; /* Uses the imported font */
+}
+
+/* Styling for links within the .posterlink h3 element */
+.posterlink h3 a {
+    text-decoration: none; /* Removes underline from links */
+    color: rgb(0, 0, 0); /* Black color for links */
+}
